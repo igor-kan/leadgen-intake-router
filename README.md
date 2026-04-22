@@ -32,3 +32,8 @@ curl -X POST http://127.0.0.1:8010/ingest/json \
 - This starter uses in-memory storage.
 - Add persistence (PostgreSQL/Redis) for production.
 - Comply with local anti-spam and privacy rules.
+
+## Offline CSV scoring (for orchestration)
+```bash
+python scripts/process_csv.py --input examples/leads.csv --output out/ranked_leads.csv
+```
