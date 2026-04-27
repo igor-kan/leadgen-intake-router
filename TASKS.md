@@ -1,11 +1,11 @@
 # TASKS
 
 ## Current tasks
-- [ ] Add unit tests for core logic
-- [ ] Add CI checks for lint + smoke tests
-- [ ] Add production deployment notes
+- [x] Add unit tests for core logic
+- [x] Add CI checks for lint + smoke tests
+- [x] Add production deployment notes
 
 ## Backlog
-- [ ] Improve observability/logging
-- [ ] Add stronger error reporting
-- [ ] Add typed API response contracts
+- [x] Improve observability/logging
+- [x] Add stronger error reporting
+- [x] Add typed API response contracts
